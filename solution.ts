@@ -1,5 +1,3 @@
-/*Problem-1*/
-
 function formatValue(value: string | number | boolean): string | number | boolean {
     if (typeof value === 'string') {
         return value.toUpperCase();
@@ -17,7 +15,6 @@ function formatValue(value: string | number | boolean): string | number | boolea
 
 
 
-/*Problem-2*/
 
 function getLength(input: string | any[]): number {
     if (typeof input === 'string') {
@@ -33,7 +30,6 @@ function getLength(input: string | any[]): number {
 
 
 
-/*Problem-3*/
 
 class Person {
   name: string;
@@ -57,7 +53,6 @@ const person2 = new Person('Alice', 25);
 
 
 
-/*Problem-4*/
 
 interface Item {
     title: string;
@@ -80,7 +75,6 @@ const highRatings = filterByRating(books);
 
 
 
-/*Problem-5*/
 
 interface User {
     id: number;
@@ -105,7 +99,6 @@ const activeUsers = filterActiveUsers(users);
 
 
 
-/*Problem-6*/
 
 interface Book {
     title: string;
@@ -132,7 +125,6 @@ printBookDetails(myBook);
 
 
 
-/*Problem-7*/
 
 type SN = string | number;
 
@@ -165,7 +157,6 @@ const uniqueArray = JSON.stringify (getUniqueValues(array1,array2))
 
 
 
-/*Problem-8*/
 
 interface Product {
     name: string;
