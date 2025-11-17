@@ -23,6 +23,7 @@ type:
 ৪। নিজে নিজেকে রেফারেন্স করতে পারে।
 
 
+---
 Q2. What is the use of the keyof keyword in TypeScript? Provide an example.
 
 Ans:
